@@ -16,6 +16,11 @@ namespace DiamondJam.View
 		/// <param name="g">The Gem item.</param>
 		void Show(Gem g);
 
+        /// <summary>
+        /// Simulate a movement to target position. In a specific time.
+        /// </summary>
+        /// <param name="targetPos">target position</param>
+        /// <param name="animationDuration">time to complete the movement</param>
 		void MoveTo(IntVector2 targetPos, float animationDuration);
 	}
 }

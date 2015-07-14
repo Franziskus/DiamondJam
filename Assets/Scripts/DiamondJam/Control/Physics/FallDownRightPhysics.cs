@@ -46,10 +46,6 @@ namespace DiamondJam.Control.Physics
 			}else{
 				throw new System.ArgumentException("Number needs to be between 0 and "+PhysicsSteps()+".");
 			}
-			//GemMove[][] phases = new GemMove[2][];
-			//phases[0] = FallingDown(updateYpos);
-			//phases[1] = FallingRight();
-			//return phases;
 		}
 
 		/// <summary>
@@ -126,7 +122,7 @@ namespace DiamondJam.Control.Physics
 			List<int> endXGround = new List<int>();
 			List<GemMove> moves = new List<GemMove>();
 
-			//fidle lager holes
+            //find large holes
 			for(int x = 0; x < size.x; x++){
 				//find the first empty space
 				if(level.GetItem(new IntVector2(x,size.y-1)) == null){
@@ -152,16 +148,15 @@ namespace DiamondJam.Control.Physics
 			//Debug.Log(s);
 
 			int targetX = size.x-1;
-			//int sourceX = size.x-2;
 			int distance = 1;
 			while(targetX-distance >= 0 && targetX >= 0){
-				//if w know we have a hole we add this to move distace
+                //if we know we have a hole we add this to move distance 
 				if(endXGround.Contains(targetX)){
 					int index = endXGround.IndexOf(targetX);
 					distance += (targetX - startXGround[index]) - 1;
 				}
 				if(level.GetItem(new IntVector2(targetX,size.y-1)) == null){
-					//the target could also be empty then we have to move the distace even more.
+                    //the target pos could also be empty => then we have to move the item even more.
 					while(targetX-distance >= 0 && level.GetItem(new IntVector2(targetX-distance,size.y-1)) == null){
 						distance += 1;
 					}

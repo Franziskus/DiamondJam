@@ -31,6 +31,9 @@ namespace DiamondJam.View
 		private IntVector2 startPos;
 		private IntVector2 targetPos;
 
+        /// <summary>
+        /// Initialize this Class
+        /// </summary>
 		public override void Awake() {
 			base.Awake();
 			spriteRenderer = GetComponent<SpriteRenderer>();
@@ -38,12 +41,23 @@ namespace DiamondJam.View
 			targetPos = startPos;
 		}
 
+        /// <summary>
+        /// Simulate a movement to target position. In a specific time.
+        /// </summary>
+        /// <param name="targetPos">target position</param>
+        /// <param name="animationDuration">time to complete the movement</param>
 		public void MoveTo(IntVector2 targetPos, float animationDuration){
 			this.targetPos = targetPos;
 			animationEndTime = Time.time + animationDuration;
 			this.animationDuration = animationDuration;		
 		}
 
+        /// <summary>
+        /// This method is called every frame.
+        /// It's reasonable for the movement animation.
+        /// if the target position is not same as the initial position 
+        /// we will lerp between initial an target position depending on the animationDuration.
+        /// </summary>
 		public override void Update(){
 			base.Update();
 			if(targetPos != startPos){
@@ -54,7 +68,6 @@ namespace DiamondJam.View
 					transform.position = pos;
 				}else{
 					targetPos = startPos;
-					//transform.position = new Vector3(startPos.x,-startPos.y,0);
 				}
 			}
 		}
