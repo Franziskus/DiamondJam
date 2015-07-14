@@ -1,0 +1,51 @@
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The Code in this case everything that ends with .cs is under a modified MIT License (MIT)
+Copyright (c) 2015 Franziskus Heblich
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this Code and associated documentation files (the "Code"), to deal
+in the Code without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Code, and to permit persons to whom the Code is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Code.
+
+This Software contains Textures from multiple authors with special copyright clauses.
+- Texture under "Textures/Background/country field.png" is by Sam and under 
+  CC0 1.0 Universal (CC0 1.0) Public Domain Dedication(http://creativecommons.org/publicdomain/zero/1.0/)
+  The sources of the files are here: http://opengameart.org/content/country-field
+- Texture under "Textures/Bombada/pieces.png" is by Matt Hackett and under 
+  CC Attribution 3.0 Unported (CC by 3.0)(http://creativecommons.org/licenses/by/3.0/)
+  The sources of the files are here: http://opengameart.org/content/bombada.
+- Texture under "Textures/Candies/Candies_Jerom_CCBYSA3.png" is by Jerom and under 
+  CC Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)(http://creativecommons.org/licenses/by-sa/3.0/)
+  The sources of the files are here: http://opengameart.org/content/shiny-candies.
+- Texture under "Textures/RoundAnimals/hippo.png" is by OCAL  and under 
+  Public Domain(http://www.clker.com/disclaimer.html)
+  The sources of the files are here: http://www.clker.com/clipart-hippo-1.html.
+- Texture under "Textures/star/starfield.png" is by Sauer2 and under 
+  CC0 1.0 Universal (CC0 1.0) Public Domain Dedication(http://creativecommons.org/publicdomain/zero/1.0/)
+  The sources of the files are here: http://opengameart.org/content/starfield-background
+- Texture under "Textures/water/water3.png" is by rh0 and under 
+  CC0 1.0 Universal (CC0 1.0) Public Domain Dedication(http://creativecommons.org/publicdomain/zero/1.0/)
+  The sources of the files are here: http://opengameart.org/content/few-water-backgrounds-1366%C3%97768
+
+Textures under Public Domain (https://openclipart.org/share):
+- Texture under "Textures/Firework/firework.png" is by S.Kemter.
+  The sources of the files are here: https://openclipart.org/detail/173594/firework.
+- Textures under "Textures/ice/SaraSara-Ice-cube-2.png" is by SaraSara.
+  The sources of the files are here: https://openclipart.org/detail/4034/ice-cube-2.
+- Textures under "Textures/melon/Anonymous-pasteque.png" is by Anonymous.
+  The sources of the files are here: https://openclipart.org/detail/13082/pasteque.  
+- Textures under "Textures/switch/s.png" is by dodger2.
+  The sources of the files are here: https://openclipart.org/detail/168588/sheep-using-a-switch.  
+- Textures under "Textures/turn/turn.png" is by sixsixfive.
+  The sources of the files are here: https://openclipart.org/detail/211915/category-turn-based.  
